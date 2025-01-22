@@ -25,12 +25,15 @@ After investigating the data quality and trends, I’ve identified a few key poi
     - Product Table: 51.60% of rows had missing information, reducing the ability to map across tables effectively.
 
 > **Interesting Trend:**
+
 One trend that stood out is the Dips & Salsa category's brand performance. After aggregating the data, I found that the leading brand in terms of sales in this category has far outpaced its competitors, highlighting strong customer preference for Tostitos. However, we also need to ensure that the brand labeling is consistent across all products to avoid discrepancies.
 
 > **Data Insight**
+
 - Power Users: I identified users who have both frequent transactions and high spending, which could inform targeted marketing strategies. These users tend to purchase across multiple categories, indicating they are engaged with a broad range of products. This group represents a valuable customer base.
 
 > **Request for Action:**
+
 1. **Help with Standardization:** It would be great if you could clarify the standard labels for Gender and Brand fields, as this will help us clean and structure the data more effectively.
 2. **More Data on Missing Fields:** We also need additional context on how we should handle missing category information in the Product table (e.g., how to deal with products that are missing CATEGORY_2 and CATEGORY_3).
 3. **Confirmation on Key Metrics**: Please confirm if total sales and transaction frequency are the correct metrics to use when identifying power users or if there are other metrics you would prefer to focus on.
