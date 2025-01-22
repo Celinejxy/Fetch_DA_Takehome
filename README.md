@@ -1,7 +1,5 @@
 After investigating the data quality and trends, I’ve identified a few key points and would appreciate your input to move forward. 
 
-**Data Source: [Fetch Commerce Data](Raw Data)**
-
 > **Data Quality Issue:**
 1. **Inappropriate Data Types**
     - The data types of columns in all three tables (User, Product, and Transaction) were incorrectly defined upon initial reading, requiring adjustments to match their logical meanings (e.g., dates, integers, and floats).
