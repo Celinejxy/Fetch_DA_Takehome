@@ -15,16 +15,19 @@
     <h6> - User Table and Transaction Table: Only 130 of 24,795 USER_ID values were common, meaning 0.5% of the records in Transaction table could merge with additional user data. </h6>
     <h6> - Product Table: 51.60% of records in Transaction table failed to found a matching BARCODE in the Product table, reducing the ability to map across tables effectively.</h6>
 
+****
 > **Interesting Trend:**
 
 <h6>One notable trend emerged in the Dips & Salsa category: After analyzing sales data, Tostitos consistently outperformed its competitors, establishing itself as the leading brand by a significant margin,indicating a strong customer preference in this product category.</h6>
 
 <h6>However, this insight is contingent on accurate and consistent brand labeling across the dataset. During the analysis, we identified some discrepancies in product labeling, such as barcodes linked to multiple brands or missing brand information. Addressing these inconsistencies is crucial to ensuring the reliability of this finding.</h6>
 
+****
 > **Data Insight**
 
 <h6>Power Users: I identified power users—customers with both frequent transactions and high spending. These users also tend to purchase across multiple product categories, indicating strong engagement with the full range of offerings. This group represents a highly valuable customer base and could serve as a key focus for targeted marketing campaigns to drive retention and further spending.</h6>
 
+****
 > **Request for Action:**
 <h6> 1. Help with Standardization: Assistance from the cross-functional team is needed to clarify and standardize labels in the User and Product tables to ensure consistency across datasets (e.g., gender labels, brand associations, manufacturer details).</h6>
 <h6> 2. Guidance on Missing Fields: Additional context is required on how to handle missing category information in the Product table, particularly for fields like CATEGORY_2 and CATEGORY_3. Should these rows be excluded, or should placeholder values be used? Any source for cross-referencing? </h6>
